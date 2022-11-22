@@ -1,0 +1,16 @@
+services:
+  huggingfaceenv:
+    image: hugging_face
+    container_name: huggingface
+    volumes:
+    - .:/home/docker_user/hugging_face
+    tty: true
+    deploy:
+      resources: 
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+
