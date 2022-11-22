@@ -3,7 +3,7 @@ services:
     image: hugging_face
     container_name: huggingface
     volumes:
-    - .:/home/docker_user/hugging_face
+    - ..:/home/docker_user/hugging_face
     tty: true
     deploy:
       resources: 
