@@ -5,6 +5,7 @@ services:
     volumes:
     - ..:/home/docker_user/hugging_face
     tty: true
+    stdin_open: true
     deploy:
       resources: 
         reservations:
@@ -14,3 +15,4 @@ services:
               capabilities: [gpu]
 
 
+  
