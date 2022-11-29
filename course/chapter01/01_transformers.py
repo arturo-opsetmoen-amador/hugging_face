@@ -3,7 +3,7 @@
 """
 Transformers, what can they do?
 HuggingFace course
-Chapter 1, section 1
+Chapter 1, exercise 1
 """
 
 from transformers import pipeline

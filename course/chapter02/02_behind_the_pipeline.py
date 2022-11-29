@@ -1,3 +1,11 @@
+#!/usr/bin/python
+
+"""
+Transformers, what can they do?
+HuggingFace course
+Chapter 1, exercise 2
+"""
+
 from transformers import pipeline
 from transformers import AutoTokenizer, AutoModel, AutoModelForSequenceClassification, TFAutoModel, TFAutoModelForSequenceClassification
 import torch
